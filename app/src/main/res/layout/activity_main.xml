@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:srcCompat="@color/teal_200" />
+
+    <ImageView
+        android:id="@+id/imageView64"
+        android:layout_width="120dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="34mm"
+        app:srcCompat="@color/purple_200" />
+
+    <ImageView
+        android:id="@+id/imageView65"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        app:srcCompat="@color/purple_200" />
+
+    <ImageView
+        android:id="@+id/imageView66"
+        android:layout_width="120dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="34mm"
+        app:srcCompat="@color/purple_200" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_500"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:text="wahyu" />
+
+
+</FrameLayout>
